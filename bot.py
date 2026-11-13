@@ -91,6 +91,7 @@ async def _on_startup(app: Application) -> None:
         logger.info("Daily scheduler auto-started on boot.")
     else:
         logger.info("Daily scheduler already running, skipped auto-start.")
+        #this is just for testing
 
 
 def main():
